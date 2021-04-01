@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Note Taking Website</title>
+</head>
+
+<body>
+    <div class="root">
+        <div class="notes-container">
+            <h1 id="heading">Your Notes</h1>
+            <div class="note-items-container">
+                <div class="note-list">
+                    <div class="note">
+                        <div class="note-top-bar">
+                            <h3>Hello World</h3>
+                            <img src="assets/delete.svg" alt="Delete" id="delete-icon">
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione facere alias dolore obcaecati voluptates, sequi autem maxime temporibus praesentium officia dolorum? Dolor, necessitatibus? Nesciunt deserunt a eligendi similique
+                            autem voluptatum? Quibusdam cupiditate deserunt rem, officia, mollitia qui reprehenderit assumenda quod nemo, ratione earum provident repellendus iusto libero rerum totam quidem!</p>
+                    </div>
+                </div>
+                <div class="note-detail-container">
+                    <img src="assets/back.svg" alt="Back" width="30" id="back-icon">
+                    <textarea name="note-content" id="note-content" placeholder="Your note here..."></textarea>
+                    <button class="save-btn">Save changes</button>
+                </div>
+            </div>
+            <div class="add-note-container">
+                <input type="text" placeholder="Add a new note..." maxlength="40">
+                <img src="assets/add.svg" alt="Add" id="add-icon">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
